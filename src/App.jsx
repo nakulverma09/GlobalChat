@@ -4,7 +4,7 @@ import Heading from "./components/Heading";
 import ShowChat from "./components/ShowChat";
 import InputForm from "./components/InputForm";
 
-const socketServerURL = "http://localhost:5000"; // Backend URL
+const socketServerURL = "https://globalchat-r4ym.onrender.com/"; // Backend URL
 
 const storedUserId =
   sessionStorage.getItem("socket_user_id") ||
